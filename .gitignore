@@ -1,2 +1,4 @@
 /virenv/
 /results.zip
+train_chatbot.py
+/__pycache__/
