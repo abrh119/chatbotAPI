@@ -7,7 +7,7 @@ class Chat(BaseModel):
     intent: str = None
     prob: str = None
 
-client = MongoClient('mongodb+srv://salman:salman123@cluster0.z9i4w.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('MongoDB Connection String')
 async def saveChat(sent, response):
     db = client["MedicChats"]
     msg_collection = db["medChat"]
